@@ -1,9 +1,11 @@
 function removeChar(str) {
-  if (str.length < 2) {
+  if (str.length <= 2) {
     return str;
+  } else {
+    return str.substr(1, str.length - 2);
   }
 }
 
-let myString = "Hi my name is Grace";
+let myString = "My dream job is an astronaut";
 
 console.log(removeChar(myString));
