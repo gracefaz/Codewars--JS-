@@ -2,9 +2,9 @@
 
 // Example: ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 
-function smash(words) {
+const smash = (words) => {
   return words.join(" ");
-}
+};
 
 console.log(smash(["it", "is", "a", "good", "day", "to", "code"]));
 // Prints 'it is a good day to code'.
