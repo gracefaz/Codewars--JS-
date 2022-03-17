@@ -12,5 +12,5 @@ const findDigit = (num, nth) => {
   return find;
 };
 
-console.log(findDigit(762413, 2));
-// Should print 1.
+console.log(findDigit(762, 2));
+// Should print 6.
