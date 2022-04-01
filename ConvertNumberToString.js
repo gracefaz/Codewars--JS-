@@ -4,8 +4,7 @@
 //           999 --> "999"
 
 function numberToString(num) {
-  let string = num.toString();
-  return string;
+  return num.toString();
 }
 
 console.log(numberToString(888));
